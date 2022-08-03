@@ -4,13 +4,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 4173"
+    "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "bootstrap": "^5.2.0",
+    "bootstrap-vue": "^2.22.0",
+    "vue": "^2.1.0",
+    "vue-router": "^2.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^3.0.1",
-    "vite": "^3.0.1"
+    "vite": "^3.0.4",
+    "vite-plugin-vue2": "^2.0.2"
   }
 }
