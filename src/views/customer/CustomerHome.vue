@@ -4,22 +4,25 @@
     <br>
     <b-container>
       <HighlightCarousel></HighlightCarousel>
-      <ResturantsList></ResturantsList>
+      <CuisineBar></CuisineBar>
+      <RestaurantsList></RestaurantsList>
     </b-container>
   </div>
 </template>
 
 <script>
 import Navbar from '../../components/Navbar.vue'
-import ResturantsList from '../../components/ResturantsList.vue'
+import RestaurantsList from '../../components/ResturantsList.vue'
 import HighlightCarousel from '../../components/HighlightCarousel.vue'
+import CuisineBar from '../../components/CuisineHome.vue'
 export default {
   name: 'CustomerHome',
 
   components: {
     Navbar,
     HighlightCarousel,
-    ResturantsList
-  },
+    RestaurantsList,
+    CuisineBar
+},
 };
 </script>

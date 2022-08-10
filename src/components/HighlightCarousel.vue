@@ -1,3 +1,4 @@
+
 <template>
   <div>
     <b-carousel
@@ -15,9 +16,10 @@
     >
       <!-- Text slides with image -->
       <b-carousel-slide
-        caption="First slide"
+        caption="Chi Chi's Market and Restuarant"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
+        img-src="https://unsplash.com/photos/q_jKuy-cURg"
+   
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->
@@ -51,10 +53,7 @@
       </b-carousel-slide>
     </b-carousel>
 
-    <p class="mt-4">
-      Slide #: {{ slide }}<br>
-      Sliding: {{ sliding }}
-    </p>
+   
   </div>
 </template>
 
